@@ -72,6 +72,38 @@ Here's the full breakdown across each area.
 - Common LLD problems: parking lot, rate limiter, elevator system, notification service (you've literally built one), library management
 - Concurrency-safe design in class structures
 
+Here's the core LLD problem set that shows up repeatedly at FAANG-tier and similarly-leveled companies (Uber, Amazon, Google, Atlassian, Flipkart, etc.) for senior backend roles:
+
+## Tier 1 — Almost guaranteed to come up
+- **Parking Lot System** — classic OOP entry point; tests class hierarchy, strategy pattern for pricing, factory for vehicle types
+- **Elevator System** — concurrency + scheduling algorithm (SCAN/LOOK), state machine design
+- **Library Management System** — basic CRUD + relationships, often a warm-up round
+- **Rate Limiter** — token bucket/sliding window, very relevant to your gRPC/API Gateway background
+- **URL Shortener (design + LLD split)** — base62 encoding, collision handling
+- **Cache with Eviction (LRU/LFU)** — data structure + generic design, frequently asked standalone
+
+## Tier 2 — Common at senior level (concurrency/extensibility focus)
+- **Booking Systems** — Movie Ticket Booking (BookMyShow), Hotel Booking, Airline Reservation — heavy on concurrency (seat locking), state transitions, and strategy/observer patterns
+- **Ride-Sharing System (Uber/Ola)** — matching algorithm, real-time state, strategy pattern for pricing
+- **Splitwise / Expense Sharing** — graph-based debt simplification, a favorite for testing algorithmic + OOP combo
+- **Food Delivery System (Swiggy/Zomato)** — multi-actor state machine (restaurant, delivery agent, order)
+- **Vending Machine** — state pattern textbook example
+- **ATM System** — state pattern + transaction consistency
+
+## Tier 3 — Senior/staff-level differentiators
+- **Distributed Task Scheduler / Job Scheduler** — plays to your AWS Lambda/RabbitMQ background, tests idempotency and retry design
+- **Chat Application (WhatsApp-like)** — real-time delivery, message ordering, group chat fan-out
+- **Notification System** — observer pattern, multi-channel (email/SMS/push) strategy design
+- **Logging Framework (Log4j-style)** — extensibility, builder pattern, appenders
+- **In-Memory Key-Value Store** — thread safety, expiry, pluggable eviction — good with your Node.js/TS async model contrast
+- **Payment Gateway / Wallet System** — relevant to FIS Global domain, tests idempotency, double-entry ledger correctness, strategy for payment methods
+- **Stock Exchange / Order Matching Engine** — heavier, more common at trading-adjacent companies
+
+## Recurring patterns to nail across all of these
+Strategy, Factory/Abstract Factory, Observer, State, Decorator, Singleton (and why it's often an anti-pattern in interviews), Builder — plus SOLID principles applied concretely, not just recited.
+
+**Suggested practice order:** Parking Lot → Elevator → Rate Limiter → LRU Cache → Splitwise → Booking system of your choice → Payment/Wallet (leans into your FIS domain experience) → Chat App or Job Scheduler for the concurrency-heavy finish.
+
 *High-Level Design (HLD)*:
 - Requirements gathering → capacity estimation → high-level architecture → deep dive → tradeoffs (structured answer format)
 - Scalability: horizontal vs vertical scaling, load balancing
