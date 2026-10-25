@@ -13,6 +13,8 @@ then: memo → table → keep only the rows/values the transition reads
 
 Run any file with `java FileName.java`, or every problem with `./run-all.sh`. ⭐ = not in `leetcode.md`, added for a key technique.
 
+**Study notes:** every problem file has a companion `.md` with the same name (e.g. `02-Easy/E01_ClimbingStairs.md`). Each note covers the problem, how to think about it (state, transition, base, order, answer), the Java concepts it uses (E01 starts with the DP recipe and memo vs table vs rolling variables), a line-by-line walkthrough of every approach, dry-run tables, edge cases, and interview questions with follow-ups.
+
 ## 01-Basics: start here
 
 | File | What you learn |

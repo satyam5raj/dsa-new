@@ -3,6 +3,8 @@
 Go through the folders in order. Every file runs with `java FileName.java` and checks its own answers (PASS/FAIL).
 `./run-all.sh` runs every problem at once.
 
+**Study notes:** every problem file has a companion `.md` with the same name (e.g. `02-Easy/E01_TwoSum.md`). Each note covers the problem, how to think about it, the new Java concepts it uses, a line-by-line walkthrough of every approach, dry-run tables, edge cases, and interview questions with follow-ups.
+
 ## How to study each problem
 1. Read the **PROBLEM** and examples at the top, then **close the file and try it yourself** (15–30 min).
 2. Read the explanation: brute force → bottleneck → key insight → optimal.

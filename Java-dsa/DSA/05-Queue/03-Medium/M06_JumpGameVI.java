@@ -27,8 +27,8 @@
  *  DRY RUN nums = [1,-1,-2,4,-7,3], k = 2
  *    dp[0] = 1                      dq [0]
  *    dp[1] = -1 + 1 = 0             dq [0,1]
- *    dp[2] = -2 + 1 = -1            dq [1,2]   (0 out of reach)
- *    dp[3] = 4 + 0 = 4              dq [3]     (pops 2 and 1: smaller than 4)
+ *    dp[2] = -2 + 1 = -1            dq [0,1,2] (0 is still reachable: 2 - 2 = 0)
+ *    dp[3] = 4 + 0 = 4              dq [3]     (0 expires; pops 2 and 1: smaller than 4)
  *    dp[4] = -7 + 4 = -3            dq [3,4]
  *    dp[5] = 3 + 4 = 7              -> 7
  *

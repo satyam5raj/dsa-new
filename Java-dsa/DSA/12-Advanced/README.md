@@ -7,6 +7,8 @@ The last DSA topic covers three classic "advanced" structures and the **design p
 
 Run any file with `java FileName.java`, or every problem with `./run-all.sh`. ⭐ = not in `leetcode.md`, added for a key technique.
 
+**Study notes:** every problem file has a companion `.md` with the same name (e.g. `02-Easy/E01_LoggerRateLimiter.md`). Each note covers the problem, how to think about it, the Java concepts it uses (E01 starts with how design problems are written: classes with state, `private final` fields, `getOrDefault`), a line-by-line walkthrough of every approach, dry-run tables, edge cases, and interview questions with follow-ups.
+
 ## 01-Basics: start here
 
 | File | What you learn |

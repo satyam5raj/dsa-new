@@ -5,6 +5,8 @@ In Java use `Deque<Integer> stack = new ArrayDeque<>()`, never `java.util.Stack`
 
 Run any file with `java FileName.java`, or everything with `./run-all.sh`. ⭐ = not in `leetcode.md`, added for a key technique.
 
+**Study notes:** every problem file has a companion `.md` with the same name (e.g. `02-Easy/E01_ValidParentheses.md`). Each note covers the problem, how to think about it, the Java concepts it uses (E01 starts with stack basics and why `ArrayDeque` beats `Stack`), a line-by-line walkthrough of every approach, dry-run tables, edge cases, and interview questions with follow-ups.
+
 ## 01-Basics: start here
 
 | File | What you learn |

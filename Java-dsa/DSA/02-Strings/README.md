@@ -3,6 +3,8 @@
 A string is an **array of characters**, so every array pattern carries over. Strings add three things: **character counting** (`int[26]` / `int[128]`), **immutability** (build with `StringBuilder`, edit with `char[]`), and **text-search algorithms**.
 
 Run any file with `java FileName.java`, or everything at once with `./run-all.sh`.
+
+**Study notes:** every problem file has a companion `.md` with the same name (e.g. `02-Easy/E01_ValidAnagram.md`). Each note covers the problem, how to think about it, the Java concepts it uses (E01 starts with the String basics), a line-by-line walkthrough of every approach, dry-run tables, edge cases, and interview questions with follow-ups.
 ⭐ = a classic not in `leetcode.md`, added because it teaches a key technique.
 
 ## 01-Basics: start here

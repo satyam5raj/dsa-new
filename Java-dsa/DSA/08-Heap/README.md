@@ -6,6 +6,8 @@ In Java: `PriorityQueue<>()` is a min-heap, `new PriorityQueue<>(Comparator.reve
 Run any file with `java FileName.java`, or every problem with `./run-all.sh`. ⭐ = not in `leetcode.md`, added for a key technique.
 (The basic int heap was built in [05-Queue/01-Basics/PriorityQueueFromScratch](../05-Queue/01-Basics/PriorityQueueFromScratch.java). Start there if sift up/down is new.)
 
+**Study notes:** every problem file has a companion `.md` with the same name (e.g. `02-Easy/E01_KthLargestInStream.md`). Each note covers the problem, how to think about it, the Java concepts it uses (E01 starts with `PriorityQueue` from the ground up: the array layout, costs, min vs max heaps, comparators and traps), a line-by-line walkthrough of every approach, dry-run tables, edge cases, and interview questions with follow-ups.
+
 ## 01-Basics: start here
 
 | File | What you learn |
