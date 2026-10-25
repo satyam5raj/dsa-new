@@ -3,6 +3,7 @@
 Every design has two files:
 - **`README.md`**: how to think about it. Clarifying questions, requirements, the reasoning from nouns to classes, class and state diagrams (Mermaid), key flows, the patterns used and *why*, concurrency, edge cases, extensions, and 10+ interview Q&As with answers.
 - **One runnable `.java` file**, with every concept explained in comments. Run it with `java File.java`. Each one tests itself, including concurrency races. Run everything with `./run-all.sh`.
+- **Study notes `<JavaFile>.md`** (for example [ParkingLotSystem.md](01-Parking-Lot/ParkingLotSystem.md)): the same design explained very simply. How to think through the 7 steps, analogies, the Java concepts used, the code piece by piece, a dry run from the real output, concurrency, common mistakes, and interview Q&A with follow-ups. Start with [ConcurrencyToolkit.md](00-LLD-Playbook/ConcurrencyToolkit.md).
 
 **Start with [00 · LLD Playbook](00-LLD-Playbook/)**: the 7-step method, which pattern fits which requirement, the concurrency toolbox, and what interviewers grade. The design patterns themselves are taught in [OOP/06-Design-Patterns](../OOP/06-Design-Patterns/).
 
