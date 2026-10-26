@@ -26,3 +26,4 @@ Read a file top to bottom: the big comment block at the top explains the theory,
 | 6 | DSA Topics & Patterns | [DSA/](DSA/) | ✅ Done (16 topics: Complexity → Advanced, Recursion, Backtracking, DP) |
 | 7 | Low-Level Design (LLD) | [LLD/](LLD/) | ✅ Done (Playbook + all 19 designs) |
 | 8 | High-Level Design (HLD) | [HLD/](HLD/) | ✅ Done (playbook, 6 fundamentals, 6 case studies) |
+| 9 | Maths for CS, ML and AI | [Maths/](Maths/) | ✅ Done (10 chapters: foundations → attention, 459 self-checks) |
