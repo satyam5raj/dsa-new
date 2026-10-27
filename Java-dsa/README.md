@@ -29,3 +29,5 @@ Read a file top to bottom: the big comment block at the top explains the theory,
 | 9 | Maths for CS, ML and AI | [Maths/](Maths/) | ✅ Done (10 chapters: foundations → attention, 459 self-checks) |
 | 10 | AI interviews: LLMs, RAG, agents, evals, guardrails, gateways, Cloud Run | [AI-Interviews/](AI-Interviews/) | ✅ Done (16 chapters, 14 simulations, 284 self-checks) |
 | 11 | Machine learning in Python: classical ML → deep learning → LLMs → MLOps | [../ML-Python/](../ML-Python/) | ✅ Done (20 chapters, 19 programs, 576 self-checks) |
+| 12 | Networking for senior engineers: TCP/IP, DNS, HTTP/TLS, routing, security, resilience, troubleshooting | [Networking/](Networking/) | ✅ Done (11 chapters, 10 programs, 303 self-checks) |
+| 13 | Operating systems: processes, scheduling, concurrency, memory, GC, I/O, event loops, IPC, Linux/containers | [OS/](OS/) | ✅ Done (13 chapters, 12 programs, 205 self-checks) |
