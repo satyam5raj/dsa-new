@@ -14,7 +14,7 @@ Every chapter is two things:
 cd ML-Python
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # once (~1 GB with PyTorch)
 .venv/bin/python 04-Classification/classification.py                 # one chapter
-./run_all.sh                                                          # everything: 15 programs, 467 checks, ~70 s on a laptop CPU
+./run_all.sh                                                          # everything: 19 programs, 576 checks, ~2.5 min on a laptop CPU
 ```
 
 The stack is NumPy, pandas, scikit-learn, SciPy and PyTorch. No GPU or internet needed; every
@@ -41,6 +41,15 @@ dataset is synthetic or bundled with scikit-learn.
 | 14 | [MLOps and production](14-MLOps-Production/README.md) | track experiments, gate and roll back models, serve over HTTP, catch train/serve skew, measure drift, handle the **degrading fraud model** | 29 |
 | 15 | [Interview prep and projects](15-Interview-Prep-and-Projects/README.md) | the 30 algorithms, 12 coding drills, theory/DL Q&A, a system-design framework + cases, 3 portfolio project blueprints | 20 |
 
+### Part 2: more algorithms, all from scratch
+
+| # | Chapter | Algorithms | Checks |
+|---|---|---|---|
+| 16 | [Classical algorithms from scratch](16-Classical-Algorithms-from-Scratch/README.md) | perceptron, linear SVM (Pegasos), kernel trick + kernel perceptron, LDA, multinomial naive Bayes, CART, XGBoost-style second-order boosting, DBSCAN, GMM via EM, agglomerative clustering, Isolation Forest, Apriori, t-SNE | 35 |
+| 17 | [Probabilistic models](17-Probabilistic-Models/README.md) | HMM (forward, Viterbi, forward-backward), Baum–Welch, Kalman filter, Bayesian linear regression, Gaussian processes, Metropolis–Hastings + Gibbs, Bayesian optimisation | 27 |
+| 18 | [Representation learning and LLM inference](18-Representation-and-LLM-Inference/README.md) | word2vec (SGNS), contrastive InfoNCE, CLIP loss, beam search, speculative decoding, mixture of experts, BatchNorm backward, residual connections | 19 |
+| 19 | [Explainability, experiments, causal inference](19-Explainability-Experiments-Causal/README.md) | permutation importance, exact Shapley values, partial dependence, LIME, A/B testing (sample size, peeking, Bayesian), regression adjustment, IPW, T-learner uplift, conformal prediction (+ CQR), label propagation, active learning | 28 |
+
 ## Honest lessons the self-checks caught
 
 While building this course, several of my first guesses were wrong. The checks caught them, and
@@ -61,6 +70,12 @@ the corrected results became some of the best lessons:
 - **UCB1 over-explored** and Thompson sampling won (ch. 13).
 - **Input drift was invisible** while the fraud model collapsed, but the prediction distribution
   showed it (ch. 14).
+- **LDA needs a non-singular covariance:** redundant features gave condition number 6e16 (ch. 16).
+- **Baum–Welch fits small data better than the true parameters do,** and restarts escape local
+  optima (ch. 17).
+- **Contrastive features didn't beat raw pixels** on tiny digits (ch. 18).
+- **Peeking at an A/B test** turned 5 % false positives into 21 % (ch. 19).
+- **Uplift models need far more data** than the predictions they're built from (ch. 19).
 
 ## Related material in this repo
 

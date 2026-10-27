@@ -46,6 +46,17 @@ For each one, be able to say: the **intuition**, the **objective/loss**, how it'
 | 29 | ARIMA / exponential smoothing / Holt–Winters | time series | [13](../13-TimeSeries-RecSys-Anomaly-RL/README.md) |
 | 30 | Q-learning / policy gradient / PPO | reinforcement learning | [13](../13-TimeSeries-RecSys-Anomaly-RL/README.md) |
 
+**More algorithms**, each implemented from scratch with a detailed explanation, are in Part 2:
+
+- [16](../16-Classical-Algorithms-from-Scratch/README.md): SVM, kernels, LDA, CART, XGBoost-style
+  boosting, DBSCAN, EM, Isolation Forest, Apriori, t-SNE.
+- [17](../17-Probabilistic-Models/README.md): HMMs, Kalman filter, Gaussian processes, MCMC,
+  Bayesian optimisation.
+- [18](../18-Representation-and-LLM-Inference/README.md): word2vec, contrastive learning/CLIP, beam
+  search, speculative decoding, MoE.
+- [19](../19-Explainability-Experiments-Causal/README.md): SHAP, A/B testing, causal inference,
+  uplift, conformal prediction, semi-supervised and active learning.
+
 **Quick-compare cheat sheet:**
 
 | Question | Answer |
@@ -312,4 +323,4 @@ learn?", so keep notes.
 
 ---
 
-**Back to:** [Course overview](../README.md) · [00 · Roadmap](../00-Roadmap-and-How-to-Study/README.md)
+**Next:** [16 · Classical algorithms from scratch](../16-Classical-Algorithms-from-Scratch/README.md) · **Back to:** [Course overview](../README.md)

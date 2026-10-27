@@ -44,6 +44,13 @@ you which idea you broke. That is the fastest way to learn: **change a number, p
             │ 13 Time series, recommenders, anomaly detection, RL               │
             │ 14 MLOps: tracking, registry, serving, drift, monitoring          │
             │ 15 Interview prep: 30 algorithms, system design, 3 projects       │
+            └───────────────────────────────┬───────────────────────────────────┘
+                                            ▼
+            ┌──────────────── PART 2: MORE ALGORITHMS, FROM SCRATCH ────────────┐
+            │ 16 SVM, kernels, LDA, CART, XGBoost, DBSCAN, EM, iForest, t-SNE    │
+            │ 17 HMM, Kalman, Gaussian processes, MCMC, Bayesian optimisation    │
+            │ 18 word2vec, contrastive/CLIP, beam search, speculative dec., MoE │
+            │ 19 SHAP, A/B tests, causal inference, uplift, conformal, few labels│
             └───────────────────────────────────────────────────────────────────┘
 ```
 
