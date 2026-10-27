@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Arrays;
 import java.util.Scanner;
 
 public class ArrayInput {

@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Arrays;
 
 public class Arrays {
     public static void main(String[] args) {

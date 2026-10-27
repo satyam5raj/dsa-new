@@ -1,0 +1,8 @@
+# pin the SAME versions the model was trained with: a pickled sklearn pipeline may not load across versions
+fastapi
+uvicorn
+pydantic>=2
+joblib
+pandas==2.3.3
+scikit-learn==1.6.1
+numpy==2.0.2
